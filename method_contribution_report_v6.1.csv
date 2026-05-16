@@ -1,0 +1,15 @@
+﻿方法,方法类型,被测试次数,胜出次数,胜出率(%),Top3次数,Top3率(%),平均MASE,中位MASE,平均总量误差,平均排名,覆盖模式数,被测试模式分布,胜出模式分布
+median_5,原有方法,1024,241,23.54,422,41.21,0.6785,0.3862,57.47,5.56,6,all_zero:69; erratic:31; intermittent:503; lumpy:70; seasonal:205; sparse:146,erratic:7; intermittent:114; lumpy:16; seasonal:32; sparse:72
+ma_5,原有方法,1239,172,13.88,401,32.36,0.6365,0.3846,70.08,5.18,8,all_zero:69; erratic:31; intermittent:503; lumpy:70; seasonal:205; sparse:146; stable:144; trending:71,all_zero:52; erratic:1; intermittent:64; lumpy:5; seasonal:24; sparse:6; stable:13; trending:7
+ma_3,原有方法,1239,109,8.8,464,37.45,0.6689,0.3876,74.64,5.36,8,all_zero:69; erratic:31; intermittent:503; lumpy:70; seasonal:205; sparse:146; stable:144; trending:71,erratic:5; intermittent:40; lumpy:8; seasonal:13; sparse:9; stable:18; trending:16
+seasonal_naive,原有方法,420,92,21.9,142,33.81,0.9172,0.5765,176.47,5.41,3,seasonal:205; stable:144; trending:71,seasonal:41; stable:31; trending:20
+adida,V6新增,750,88,11.73,247,32.93,0.6535,0.5,52.0,5.86,4,erratic:31; intermittent:503; lumpy:70; sparse:146,erratic:6; intermittent:63; lumpy:9; sparse:10
+interval_based,原有方法,894,87,9.73,259,28.97,0.707,0.5369,74.79,5.99,5,erratic:31; intermittent:503; lumpy:70; sparse:146; stable:144,intermittent:45; lumpy:1; sparse:9; stable:32
+weighted_ma_5,V6新增,1239,69,5.57,309,24.94,0.6244,0.3571,67.81,5.48,8,all_zero:69; erratic:31; intermittent:503; lumpy:70; seasonal:205; sparse:146; stable:144; trending:71,erratic:3; intermittent:32; lumpy:6; seasonal:10; sparse:3; stable:11; trending:4
+optimized_ses,原有方法,1023,66,6.45,288,28.15,0.5843,0.3711,71.03,4.88,6,all_zero:69; erratic:31; intermittent:503; seasonal:205; stable:144; trending:71,all_zero:17; erratic:1; intermittent:23; seasonal:19; stable:1; trending:5
+theta,V6新增,1024,64,6.25,286,27.93,0.6346,0.4187,79.55,5.22,6,erratic:31; intermittent:503; lumpy:70; seasonal:205; stable:144; trending:71,erratic:2; intermittent:24; lumpy:5; seasonal:23; stable:8; trending:2
+winsorized,V6新增,750,60,8.0,259,34.53,0.5582,0.3444,47.6,5.23,4,erratic:31; intermittent:503; lumpy:70; sparse:146,erratic:4; intermittent:34; lumpy:9; sparse:13
+croston,V6新增,750,59,7.87,221,29.47,0.6638,0.4877,55.53,6.08,4,erratic:31; intermittent:503; lumpy:70; sparse:146,erratic:1; intermittent:42; lumpy:6; sparse:10
+optimized_hw,V6新增,420,46,10.95,107,25.48,0.9319,0.6074,187.4,5.78,3,seasonal:205; stable:144; trending:71,seasonal:26; stable:11; trending:9
+optimized_des,原有方法,420,44,10.48,119,28.33,0.8767,0.5674,170.73,5.53,3,seasonal:205; stable:144; trending:71,seasonal:17; stable:19; trending:8
+tsb_opt,原有方法,750,42,5.6,193,25.73,0.5406,0.3451,47.44,5.11,4,erratic:31; intermittent:503; lumpy:70; sparse:146,erratic:1; intermittent:22; lumpy:5; sparse:14

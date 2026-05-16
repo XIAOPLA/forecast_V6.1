@@ -1,0 +1,2 @@
+﻿实验名称,禁用方法,平均MASE,相对基线MASE变化,平均总量误差,相对基线总量误差变化,V6新增方法采用数,adida胜出数,winsorized胜出数,weighted_ma_5胜出数,theta胜出数,croston胜出数,optimized_hw胜出数,暂移出方法,删除方法
+pruned_main_library,,0.2014,0.0,23.3634,0.0,386,88,60,69,64,59,46,"damped_trend, naive_drift, sba","ma_7, holt_winters"

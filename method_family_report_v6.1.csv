@@ -1,0 +1,7 @@
+﻿方法组,方法,被组内比较次数,组内第一次数,组内第一率(%),组内Top2次数,组内Top2率(%),组内平均MASE,组内中位MASE,组内平均排名,出现模式分布
+季节趋势方法组,seasonal_naive,420,149,35.48,273,65.0,0.9172,0.5765,2.0,seasonal:205; stable:144; trending:71
+季节趋势方法组,optimized_des,420,137,32.62,295,70.24,0.8767,0.5674,1.97,seasonal:205; stable:144; trending:71
+季节趋势方法组,optimized_hw,420,134,31.9,272,64.76,0.9319,0.6074,2.03,seasonal:205; stable:144; trending:71
+间歇需求方法组,tsb_opt,750,383,51.07,518,69.07,0.5406,0.3451,1.8,erratic:31; intermittent:503; lumpy:70; sparse:146
+间歇需求方法组,adida,750,198,26.4,488,65.07,0.6535,0.5,2.09,erratic:31; intermittent:503; lumpy:70; sparse:146
+间歇需求方法组,croston,750,169,22.53,494,65.87,0.6638,0.4877,2.12,erratic:31; intermittent:503; lumpy:70; sparse:146
